@@ -34,7 +34,7 @@
 
             <!-- Hero image -->
             <div class="position-relative mt-3 mb-4 text-center">
-                <img src="/api/placeholder/800/300" alt="Hero Image" class="img-fluid rounded">
+                <img src="{{ asset('images/gunung.jpg') }}" alt="Hero Image" class="card-img-top w-100 rounded" style="height: 350px; object-fit: cover;">
             </div>
         </div>
     </header>
@@ -43,8 +43,8 @@
     <section class="py-5 bg-white">
         <div class="container">
             <h2 class="text-center fw-bold text-danger mb-4 fs-1">{{ $data['judul'] }}</h2>
-            <div class="mx-auto" style="max-width: 800px;">
-                <p class="text-justify">{{ $data['isi'] }}</p>
+            <div class="mx-auto" style="max-width: 1000px;">
+                <p style="text-align: justify;">{{ $data['isi'] }}</p>
             </div>
         </div>
     </section>
@@ -54,12 +54,12 @@
         <div class="container">
             <h3 class="text-center text-danger mb-4">recommendation article</h3>
             <div class="row">
-                
+
                 @foreach ($lotData as $article)
                     <!-- Recommendation Card 1 -->
                     <div class="col-md-3 mb-4">
                         <div class="card shadow-sm h-100">
-                            <img src="/api/placeholder/400/300" class="card-img-top" alt="Recommendation image">
+                            <img src="{{ asset('images/sawah.jpg') }}" class="card-img-top" alt="Recommendation image">
                             <div class="card-body">
                                 <span class="text-danger fw-bold small">{{ $article['kategori'] }}</span>
                                 <h5 class="card-title fw-bold">{{ $article['judul'] }}</h5>
