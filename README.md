@@ -1,6 +1,6 @@
 # 🌏 IndoCulcer – Indonesia Culture Explorer
 
-IndoCulcer adalah platform digital yang bertujuan untuk melestarikan dan memperkenalkan seni, tradisi, serta cerita rakyat Indonesia secara modern dan interaktif. Aplikasi ini memungkinkan pengguna mengeksplor budaya dari berbagai daerah dan mendapatkan rekomendasi berdasarkan minat mereka.
+## IndoCulcer adalah platform digital yang bertujuan untuk melestarikan dan memperkenalkan seni, tradisi, serta cerita rakyat Indonesia secara modern dan interaktif. Aplikasi ini memungkinkan pengguna mengeksplor budaya dari berbagai daerah dan mendapatkan rekomendasi berdasarkan minat mereka.
 
 ---
 
